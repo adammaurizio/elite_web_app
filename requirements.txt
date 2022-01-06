@@ -76,8 +76,6 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==1.5
 python-slugify==5.0.2
-pytz==2021.1
-pywin32==228
 pywinpty==0.5.7
 pyzmq==19.0.2
 qtconsole==4.7.7
