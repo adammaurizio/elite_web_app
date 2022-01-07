@@ -11,11 +11,11 @@ model = pkl.load(open('finalized_model.sav', 'rb'))
 
 app = Flask(__name__)
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('home.html')
 
-@app.route('/one', methods=['GET', 'POST'])
+@app.route('/one-on-one', methods=['GET', 'POST'])
 def one():
     if request.method == 'POST':
         edu = request.form['edu']
